@@ -2,7 +2,7 @@
 id: index
 title: Introduction
 sidebar_label: Introduction
-slug: introduction
+slug: /
 
 ---
 Its the **Docs** Homepage!
