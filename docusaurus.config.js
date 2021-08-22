@@ -87,13 +87,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.json'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Rajdeep-TG/ShareImage-Docs/edit/master/docs/',
+            'https://github.com/Rajdeep-TG/ShareImage-Docs/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Rajdeep-TG/ShareImage-Docs/edit/master/blog/',
+            'https://github.com/Rajdeep-TG/ShareImage-Docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
