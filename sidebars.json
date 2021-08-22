@@ -1,9 +1,9 @@
 {
-  "Sidebar": {
-    "Python": [
-      "Docs"
+  "someSidebar": {
+    "Docusaurus": [
+
     ],
-    "API": [
+    "Features": [
 
     ]
   }
