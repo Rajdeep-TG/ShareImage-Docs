@@ -1,18 +1,18 @@
 module.exports = {
   onBrokenLinks: 'ignore',
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'ShareImage',
+  tagline: 'Generate Dynamic ShareImages!',
+  url: 'https://docs.shareimage.zype.cf',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Rajdeep-TG', // Usually your GitHub org/user name.
+  projectName: 'ShareImage-Docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'ShareImage',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'https://res.cloudinary.com/zype/image/upload/ShareImage/Logo.png',
       },
       items: [
         {
@@ -23,7 +23,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Zype-Z/ShareImage',
           label: 'GitHub',
           position: 'right',
         },
@@ -36,12 +36,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Python Docs',
+              to: 'docs/python/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'API Docs (Beta)',
+              to: 'docs/api/',
             },
           ],
         },
@@ -50,15 +50,15 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/shareimage',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/QfqhyPS6va',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/RajdeepTG',
             },
           ],
         },
@@ -71,12 +71,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Zype-Z/ShareImage',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Zype Inc. Built for Developers.`,
     },
   },
   presets: [
@@ -87,13 +87,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.json'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/',
+            'https://github.com/Rajdeep-TG/ShareImage-Docs/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/blog/',
+            'https://github.com/Rajdeep-TG/ShareImage-Docs/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
