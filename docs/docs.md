@@ -9,6 +9,5 @@ Its the **Docs** Homepage!
 
 Go to desired Docs:
 
-\[Python Docs\](/docs/python)
-
-\[API Docs\](/docs/api)
+[Python Docs](/docs/python)  
+[API Docs](/docs/api)
