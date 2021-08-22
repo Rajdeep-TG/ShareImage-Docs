@@ -21,15 +21,10 @@ Then, use it in any **Python Project**:
 from ShareImage import ShareImage
 
 image = ShareImage(
-
     title = "Image Title",
-
     cloudName = "CLOUDINARY_CLOUD_NAME",
-
     imagePublicId = "CLOUDINARY_IMAGE_ID"
-
 )
-
 # Add Proper Values in cloudName and imagePublicId
 ```
 
