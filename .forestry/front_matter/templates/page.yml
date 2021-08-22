@@ -11,3 +11,11 @@ fields:
 - type: text
   name: sidebar_label
   label: sidebar_label
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Slug
+pages:
+- docs/docs.md
+- docs/python-docs.md
