@@ -17,8 +17,7 @@ pip install ShareImage
 
 Then, use it in any **Python Project**:
 
-\`\`\`py title=app.py
-
+```py
 from ShareImage import ShareImage
 
 image = ShareImage(
@@ -31,6 +30,5 @@ image = ShareImage(
 
 )
 
-\# Add Proper Values in cloudName and imagePublicId
-
-\`\`\`
+# Add Proper Values in cloudName and imagePublicId
+```
