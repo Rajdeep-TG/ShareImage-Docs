@@ -8,12 +8,11 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Easy to Integrate in Any Project!</>,
+    imageUrl: 'img/nodejs_api.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <strong>ShareImage</strong> is designed to be Framework-free Python Library and we are working on a Beta Version of the <strong>ShareImage API</strong>.
       </>
     ),
   },
@@ -22,18 +21,16 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <strong>ShareImage</strong> is designed to ignore unnecessery parameters.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Faster, in any platform!</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The API backend is decided to use Express.js and the API frontend is decided to use React.js. So the API is going to be a lot faster!
       </>
     ),
   },
